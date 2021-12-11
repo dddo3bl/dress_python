@@ -1,0 +1,1910 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1320</width>
+    <height>0</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>8</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>70</y>
+      <width>761</width>
+      <height>491</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>SimSun</family>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::RightToLeft</enum>
+    </property>
+    <property name="currentIndex">
+     <number>7</number>
+    </property>
+    <widget class="QWidget" name="tab_7">
+     <attribute name="title">
+      <string>العربيات</string>
+     </attribute>
+     <widget class="QLineEdit" name="lineEdit_63">
+      <property name="geometry">
+       <rect>
+        <x>440</x>
+        <y>120</y>
+        <width>201</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="placeholderText">
+       <string>الشركة المالكة</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="del_car">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>370</y>
+        <width>151</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>حذف المعلومات</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_64">
+      <property name="geometry">
+       <rect>
+        <x>440</x>
+        <y>80</y>
+        <width>201</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="placeholderText">
+       <string>رقم العربية</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_65">
+      <property name="geometry">
+       <rect>
+        <x>440</x>
+        <y>240</y>
+        <width>201</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="placeholderText">
+       <string>رقم الشاصيه</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_66">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>280</y>
+        <width>201</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="placeholderText">
+       <string>اللون</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_67">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>240</y>
+        <width>201</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="placeholderText">
+       <string>الشكل</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="comboBox_5">
+      <property name="geometry">
+       <rect>
+        <x>440</x>
+        <y>200</y>
+        <width>201</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="toolTip">
+       <string>نوع الخدمة</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>بيع</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>ملاكي</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>خدمة مصنع</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QPushButton" name="update_car">
+      <property name="geometry">
+       <rect>
+        <x>410</x>
+        <y>370</y>
+        <width>151</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>تعديل المعلومات</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_68">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>80</y>
+        <width>201</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="placeholderText">
+       <string>نوع العربية</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_69">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>160</y>
+        <width>201</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="placeholderText">
+       <string>الحمولة</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="add_car">
+      <property name="geometry">
+       <rect>
+        <x>580</x>
+        <y>370</y>
+        <width>151</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>اضافة المعلومات</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_70">
+      <property name="geometry">
+       <rect>
+        <x>440</x>
+        <y>280</y>
+        <width>201</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="placeholderText">
+       <string>رقم الموتور</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_71">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>120</y>
+        <width>201</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="placeholderText">
+       <string>موديل العربية</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="comboBox_6">
+      <property name="geometry">
+       <rect>
+        <x>438</x>
+        <y>320</y>
+        <width>201</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="toolTip">
+       <string>نوع الوقود</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>بنزين</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>جاز</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_72">
+      <property name="geometry">
+       <rect>
+        <x>440</x>
+        <y>160</y>
+        <width>201</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="placeholderText">
+       <string>الفرع</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_73">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>200</y>
+        <width>201</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="placeholderText">
+       <string>الوزن</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_8">
+     <attribute name="title">
+      <string>الوقود</string>
+     </attribute>
+     <widget class="QLineEdit" name="lineEdit_26">
+      <property name="geometry">
+       <rect>
+        <x>490</x>
+        <y>190</y>
+        <width>201</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="placeholderText">
+       <string>الاكراميات</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_27">
+      <property name="geometry">
+       <rect>
+        <x>490</x>
+        <y>250</y>
+        <width>201</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="placeholderText">
+       <string>سعر اللتر</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_29">
+      <property name="geometry">
+       <rect>
+        <x>490</x>
+        <y>130</y>
+        <width>201</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="placeholderText">
+       <string>قراءة العداد</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_30">
+      <property name="geometry">
+       <rect>
+        <x>490</x>
+        <y>70</y>
+        <width>201</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="placeholderText">
+       <string>عدد اللترات</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>160</y>
+        <width>191</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>22</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>الاجمالي</string>
+      </property>
+     </widget>
+     <widget class="QLCDNumber" name="lcdNumber">
+      <property name="geometry">
+       <rect>
+        <x>123</x>
+        <y>210</y>
+        <width>171</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>9</pointsize>
+       </font>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btna_fule_info">
+      <property name="geometry">
+       <rect>
+        <x>410</x>
+        <y>320</y>
+        <width>191</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>اضافة المعلومات</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnu_fule_info">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>320</y>
+        <width>191</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>تعديل المعلومات</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_5">
+     <attribute name="title">
+      <string>الصيانة</string>
+     </attribute>
+     <widget class="QLineEdit" name="lineEdit_31">
+      <property name="geometry">
+       <rect>
+        <x>420</x>
+        <y>130</y>
+        <width>201</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="placeholderText">
+       <string>المكيكانيكا</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_32">
+      <property name="geometry">
+       <rect>
+        <x>420</x>
+        <y>90</y>
+        <width>201</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="placeholderText">
+       <string>عمرة المحركات</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_33">
+      <property name="geometry">
+       <rect>
+        <x>420</x>
+        <y>170</y>
+        <width>201</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="placeholderText">
+       <string>الكهربة </string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_34">
+      <property name="geometry">
+       <rect>
+        <x>420</x>
+        <y>210</y>
+        <width>201</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="placeholderText">
+       <string>السمكرة</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_35">
+      <property name="geometry">
+       <rect>
+        <x>420</x>
+        <y>290</y>
+        <width>201</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="placeholderText">
+       <string>الصيانة الفورية</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_37">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>130</y>
+        <width>201</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="placeholderText">
+       <string>الزجاج</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_38">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>90</y>
+        <width>201</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="placeholderText">
+       <string>التبريد</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_39">
+      <property name="geometry">
+       <rect>
+        <x>420</x>
+        <y>250</y>
+        <width>201</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="placeholderText">
+       <string>العفشة</string>
+      </property>
+     </widget>
+     <widget class="QPlainTextEdit" name="plainTextEdit">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>170</y>
+        <width>201</width>
+        <height>131</height>
+       </rect>
+      </property>
+      <property name="placeholderText">
+       <string>الملاحظات</string>
+      </property>
+     </widget>
+     <widget class="Line" name="line_3">
+      <property name="geometry">
+       <rect>
+        <x>330</x>
+        <y>60</y>
+        <width>20</width>
+        <height>321</height>
+       </rect>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btna_maintenance_info">
+      <property name="geometry">
+       <rect>
+        <x>430</x>
+        <y>380</y>
+        <width>191</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>اضافة المعلومات</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnu_maintenance_info">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>380</y>
+        <width>191</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>تعديل المعلومات</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_6">
+     <attribute name="title">
+      <string>التراخيص</string>
+     </attribute>
+     <widget class="QLineEdit" name="lineEdit_36">
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>110</y>
+        <width>201</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="placeholderText">
+       <string>رخصة سيارة جديدة</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_40">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>150</y>
+        <width>201</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="placeholderText">
+       <string>غرامة رخصة</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_41">
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>150</y>
+        <width>201</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="placeholderText">
+       <string>تصريح التجديد</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_42">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>190</y>
+        <width>201</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="placeholderText">
+       <string>غرامة مخالفات</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_43">
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>190</y>
+        <width>201</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="placeholderText">
+       <string>المخالفات</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_44">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>110</y>
+        <width>201</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="placeholderText">
+       <string>المواصلات</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_45">
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>70</y>
+        <width>201</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="placeholderText">
+       <string>التجديد السنوي</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_46">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>70</y>
+        <width>201</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="placeholderText">
+       <string>المخالفات السنوية</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btna_licence_info">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>310</y>
+        <width>191</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>اضافة المعلومات</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnu_licence_info">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>310</y>
+        <width>191</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>تعديل المعلومات</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_4">
+     <attribute name="title">
+      <string>الايرادات</string>
+     </attribute>
+     <widget class="QLineEdit" name="lineEdit_49">
+      <property name="geometry">
+       <rect>
+        <x>420</x>
+        <y>170</y>
+        <width>201</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="placeholderText">
+       <string>تعويضات التأمين</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_48">
+      <property name="geometry">
+       <rect>
+        <x>420</x>
+        <y>90</y>
+        <width>201</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="placeholderText">
+       <string>بيع الكهنة</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_47">
+      <property name="geometry">
+       <rect>
+        <x>420</x>
+        <y>250</y>
+        <width>201</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="placeholderText">
+       <string>تعويضات الحوادث</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btna_revenus_info">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>120</y>
+        <width>191</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>اضافة المعلومات</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnu_revenus_info">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>210</y>
+        <width>191</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>تعديل المعلومات</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_3">
+     <attribute name="title">
+      <string>الايجارات</string>
+     </attribute>
+     <widget class="QPushButton" name="btnu_rents_info">
+      <property name="geometry">
+       <rect>
+        <x>250</x>
+        <y>270</y>
+        <width>191</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>تعديل المعلومات</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_51">
+      <property name="geometry">
+       <rect>
+        <x>490</x>
+        <y>230</y>
+        <width>201</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="placeholderText">
+       <string>عرب وغفرة</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btna_rents_info">
+      <property name="geometry">
+       <rect>
+        <x>250</x>
+        <y>180</y>
+        <width>191</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>اضافة المعلومات</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_52">
+      <property name="geometry">
+       <rect>
+        <x>490</x>
+        <y>150</y>
+        <width>201</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="placeholderText">
+       <string>العائد الشهري </string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_2">
+     <attribute name="title">
+      <string>الكهرباء</string>
+     </attribute>
+     <widget class="QPushButton" name="btnu_ele_water_info">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>240</y>
+        <width>191</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>تعديل المعلومات</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_53">
+      <property name="geometry">
+       <rect>
+        <x>460</x>
+        <y>200</y>
+        <width>201</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="placeholderText">
+       <string>مصروفات الماء</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btna_ele_water_info">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>150</y>
+        <width>191</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>اضافة المعلومات</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_54">
+      <property name="geometry">
+       <rect>
+        <x>460</x>
+        <y>120</y>
+        <width>201</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="placeholderText">
+       <string>مصروفات الكهربة</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_9">
+     <attribute name="title">
+      <string>التقارير</string>
+     </attribute>
+     <widget class="QTabWidget" name="tabWidget_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>761</width>
+        <height>471</height>
+       </rect>
+      </property>
+      <property name="currentIndex">
+       <number>2</number>
+      </property>
+      <widget class="QWidget" name="tab_10">
+       <attribute name="title">
+        <string>العربيات</string>
+       </attribute>
+       <widget class="QGroupBox" name="groupBox">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>30</y>
+          <width>751</width>
+          <height>411</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string/>
+        </property>
+        <widget class="QTableWidget" name="tableWidget">
+         <property name="geometry">
+          <rect>
+           <x>-5</x>
+           <y>1</y>
+           <width>761</width>
+           <height>421</height>
+          </rect>
+         </property>
+         <column>
+          <property name="text">
+           <string>رقم السيارة</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>الشركة المالكة</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>الفرع</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>نوع الخدمة</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>رقم الشاصيه</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>رقم الموتور</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>نوع الوقود</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>نوع العربية </string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>موديل العربية</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>الحمولة</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>الوزن</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>الشكل</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>اللون</string>
+          </property>
+         </column>
+        </widget>
+       </widget>
+       <widget class="QPushButton" name="pushButton_2">
+        <property name="geometry">
+         <rect>
+          <x>400</x>
+          <y>0</y>
+          <width>91</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>عرض كل البيانات</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radioButton">
+        <property name="geometry">
+         <rect>
+          <x>630</x>
+          <y>0</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>سيارة واحد</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radioButton_2">
+        <property name="geometry">
+         <rect>
+          <x>530</x>
+          <y>0</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>كل السيارات</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_3">
+        <property name="geometry">
+         <rect>
+          <x>310</x>
+          <y>0</y>
+          <width>75</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>طباعة تقرير</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_11">
+       <attribute name="title">
+        <string>الوقود</string>
+       </attribute>
+       <widget class="QGroupBox" name="groupBox_2">
+        <property name="geometry">
+         <rect>
+          <x>-1</x>
+          <y>30</y>
+          <width>761</width>
+          <height>421</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string/>
+        </property>
+        <widget class="QTableWidget" name="tableWidget_2">
+         <property name="geometry">
+          <rect>
+           <x>-5</x>
+           <y>0</y>
+           <width>761</width>
+           <height>421</height>
+          </rect>
+         </property>
+         <column>
+          <property name="text">
+           <string>رقم العربية</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>عدد اللترات</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>قراءة العداد</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>الاكراميات</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>سعر اللتر</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>الاجمالي</string>
+          </property>
+         </column>
+        </widget>
+       </widget>
+       <widget class="QRadioButton" name="radioButton_4">
+        <property name="geometry">
+         <rect>
+          <x>530</x>
+          <y>0</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>كل السيارات</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_5">
+        <property name="geometry">
+         <rect>
+          <x>310</x>
+          <y>0</y>
+          <width>75</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>طباعة تقرير</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radioButton_3">
+        <property name="geometry">
+         <rect>
+          <x>630</x>
+          <y>0</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>سيارة واحد</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_4">
+        <property name="geometry">
+         <rect>
+          <x>400</x>
+          <y>0</y>
+          <width>91</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>عرض كل البيانات</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_12">
+       <attribute name="title">
+        <string>الصيانة</string>
+       </attribute>
+       <widget class="QGroupBox" name="groupBox_3">
+        <property name="geometry">
+         <rect>
+          <x>-1</x>
+          <y>30</y>
+          <width>751</width>
+          <height>421</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string/>
+        </property>
+        <widget class="QTableWidget" name="tableWidget_3">
+         <property name="geometry">
+          <rect>
+           <x>-5</x>
+           <y>0</y>
+           <width>761</width>
+           <height>421</height>
+          </rect>
+         </property>
+         <column>
+          <property name="text">
+           <string>رقم السيارة</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>العمرة</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>المكانيكة</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>الكهربا</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>السمكرة</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>العفشة</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>الصيانة</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>تبريد </string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>الزجاج</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>الملاحظات</string>
+          </property>
+         </column>
+        </widget>
+       </widget>
+       <widget class="QPushButton" name="pushButton_6">
+        <property name="geometry">
+         <rect>
+          <x>310</x>
+          <y>0</y>
+          <width>75</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>طباعة تقرير</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radioButton_5">
+        <property name="geometry">
+         <rect>
+          <x>630</x>
+          <y>0</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>سيارة واحد</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_7">
+        <property name="geometry">
+         <rect>
+          <x>400</x>
+          <y>0</y>
+          <width>91</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>عرض كل البيانات</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radioButton_6">
+        <property name="geometry">
+         <rect>
+          <x>530</x>
+          <y>0</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>كل السيارات</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_13">
+       <attribute name="title">
+        <string>التراخيص</string>
+       </attribute>
+       <widget class="QGroupBox" name="groupBox_4">
+        <property name="geometry">
+         <rect>
+          <x>-1</x>
+          <y>30</y>
+          <width>761</width>
+          <height>421</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string/>
+        </property>
+        <widget class="QTableWidget" name="tableWidget_4">
+         <property name="geometry">
+          <rect>
+           <x>-5</x>
+           <y>0</y>
+           <width>761</width>
+           <height>421</height>
+          </rect>
+         </property>
+         <column>
+          <property name="text">
+           <string>رقم السيارة</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>التجديد السنوي</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>التجديد السنوي</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>رخصة سيارة جديدة</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>تصريح السيارة</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>المخالفات</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>المخالفات السنوية</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>المواصلات</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>غرامة الرخصة</string>
+          </property>
+         </column>
+        </widget>
+       </widget>
+       <widget class="QPushButton" name="pushButton_8">
+        <property name="geometry">
+         <rect>
+          <x>310</x>
+          <y>0</y>
+          <width>75</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>طباعة تقرير</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radioButton_7">
+        <property name="geometry">
+         <rect>
+          <x>630</x>
+          <y>0</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>سيارة واحد</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_9">
+        <property name="geometry">
+         <rect>
+          <x>400</x>
+          <y>0</y>
+          <width>91</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>عرض كل البيانات</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radioButton_8">
+        <property name="geometry">
+         <rect>
+          <x>530</x>
+          <y>0</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>كل السيارات</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_14">
+       <attribute name="title">
+        <string>الايرادات</string>
+       </attribute>
+       <widget class="QGroupBox" name="groupBox_5">
+        <property name="geometry">
+         <rect>
+          <x>-1</x>
+          <y>30</y>
+          <width>751</width>
+          <height>421</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string/>
+        </property>
+        <widget class="QTableWidget" name="tableWidget_5">
+         <property name="geometry">
+          <rect>
+           <x>-5</x>
+           <y>0</y>
+           <width>761</width>
+           <height>421</height>
+          </rect>
+         </property>
+         <column>
+          <property name="text">
+           <string>رقم السيارة</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>بيع الكهنة</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>ضمانات التأمين </string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>الحوادث</string>
+          </property>
+         </column>
+        </widget>
+       </widget>
+       <widget class="QPushButton" name="pushButton_10">
+        <property name="geometry">
+         <rect>
+          <x>400</x>
+          <y>0</y>
+          <width>91</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>عرض كل البيانات</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radioButton_9">
+        <property name="geometry">
+         <rect>
+          <x>530</x>
+          <y>0</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>كل السيارات</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radioButton_10">
+        <property name="geometry">
+         <rect>
+          <x>630</x>
+          <y>0</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>سيارة واحد</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_11">
+        <property name="geometry">
+         <rect>
+          <x>310</x>
+          <y>0</y>
+          <width>75</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>طباعة تقرير</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_15">
+       <attribute name="title">
+        <string>الايجارات</string>
+       </attribute>
+       <widget class="QGroupBox" name="groupBox_6">
+        <property name="geometry">
+         <rect>
+          <x>-1</x>
+          <y>30</y>
+          <width>751</width>
+          <height>421</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string/>
+        </property>
+        <widget class="QTableWidget" name="tableWidget_6">
+         <property name="geometry">
+          <rect>
+           <x>-5</x>
+           <y>0</y>
+           <width>761</width>
+           <height>421</height>
+          </rect>
+         </property>
+         <column>
+          <property name="text">
+           <string>رقم السيارة</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>الايجار الشهري</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>الغفرة</string>
+          </property>
+         </column>
+        </widget>
+       </widget>
+       <widget class="QRadioButton" name="radioButton_11">
+        <property name="geometry">
+         <rect>
+          <x>630</x>
+          <y>0</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>سيارة واحد</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radioButton_12">
+        <property name="geometry">
+         <rect>
+          <x>530</x>
+          <y>0</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>كل السيارات</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_12">
+        <property name="geometry">
+         <rect>
+          <x>310</x>
+          <y>0</y>
+          <width>75</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>طباعة تقرير</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_13">
+        <property name="geometry">
+         <rect>
+          <x>400</x>
+          <y>0</y>
+          <width>91</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>عرض كل البيانات</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_16">
+       <attribute name="title">
+        <string>الكهرباء</string>
+       </attribute>
+       <widget class="QGroupBox" name="groupBox_7">
+        <property name="geometry">
+         <rect>
+          <x>-1</x>
+          <y>30</y>
+          <width>751</width>
+          <height>421</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string/>
+        </property>
+        <widget class="QTableWidget" name="tableWidget_7">
+         <property name="geometry">
+          <rect>
+           <x>-5</x>
+           <y>0</y>
+           <width>761</width>
+           <height>421</height>
+          </rect>
+         </property>
+         <column>
+          <property name="text">
+           <string>رقم السيارة</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>مصروفات الكهرباء</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>مصروفات الموية</string>
+          </property>
+         </column>
+        </widget>
+       </widget>
+       <widget class="QRadioButton" name="radioButton_13">
+        <property name="geometry">
+         <rect>
+          <x>630</x>
+          <y>0</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>سيارة واحد</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radioButton_14">
+        <property name="geometry">
+         <rect>
+          <x>530</x>
+          <y>0</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>كل السيارات</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_14">
+        <property name="geometry">
+         <rect>
+          <x>310</x>
+          <y>0</y>
+          <width>75</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>طباعة تقرير</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_15">
+        <property name="geometry">
+         <rect>
+          <x>400</x>
+          <y>0</y>
+          <width>91</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>عرض كل البيانات</string>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab">
+     <attribute name="title">
+      <string>المستخدمين</string>
+     </attribute>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>30</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>بحث</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>202</x>
+      <y>39</y>
+      <width>201</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="placeholderText">
+     <string>ادخل رقم العربية</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="listWidget">
+    <property name="geometry">
+     <rect>
+      <x>780</x>
+      <y>70</y>
+      <width>161</width>
+      <height>491</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MS UI Gothic</family>
+      <pointsize>14</pointsize>
+      <italic>false</italic>
+     </font>
+    </property>
+    <property name="cursor" stdset="0">
+     <cursorShape>ArrowCursor</cursorShape>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::RightToLeft</enum>
+    </property>
+    <item>
+     <property name="text">
+      <string>العربيات</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>الوقود</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>الصيانة</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>التراخيص</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>الايرادات</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>الايجارات</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>الكهرباء</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>التقارير</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>المستخدمين</string>
+     </property>
+    </item>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1320</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>listWidget</sender>
+   <signal>currentRowChanged(int)</signal>
+   <receiver>tabWidget</receiver>
+   <slot>setCurrentIndex(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>877</x>
+     <y>97</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>737</x>
+     <y>95</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

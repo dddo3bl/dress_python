@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1076</width>
+    <height>596</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>0</y>
+      <width>921</width>
+      <height>561</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>2</number>
+    </property>
+    <widget class="QWidget" name="tab">
+     <attribute name="title">
+      <string>اخر الثياب</string>
+     </attribute>
+     <widget class="QPushButton" name="refresh_2">
+      <property name="geometry">
+       <rect>
+        <x>470</x>
+        <y>470</y>
+        <width>121</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>الغير مستلمة</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="acciptwork">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>480</y>
+        <width>131</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>استلام للعمل</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="worker">
+      <property name="geometry">
+       <rect>
+        <x>330</x>
+        <y>490</y>
+        <width>131</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="currentText">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="workplacenum">
+      <property name="geometry">
+       <rect>
+        <x>192</x>
+        <y>489</y>
+        <width>131</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="placeholderText">
+       <string>رقم الطلب</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>453</y>
+        <width>71</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>اسم المفصل</string>
+      </property>
+     </widget>
+     <widget class="QTableWidget" name="tableWidget">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>10</y>
+        <width>911</width>
+        <height>421</height>
+       </rect>
+      </property>
+      <column>
+       <property name="text">
+        <string>رقم الطلب</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>رقم الزبون</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>اسم الزبون</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>الطول</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>وسع الصدر</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>البطن</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>الارداف</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>الاكتاف</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>طول اليد</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>وسع اليد</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>وسع العضل</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>الرقبة</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>اسم القماش</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>رقم القماش</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>تاريخ الطلب</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>عدد الامتار</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>نوع الثوب</string>
+       </property>
+      </column>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_2">
+     <attribute name="title">
+      <string>طلبات الزبون</string>
+     </attribute>
+     <widget class="QPushButton" name="refresh">
+      <property name="geometry">
+       <rect>
+        <x>590</x>
+        <y>470</y>
+        <width>121</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>عرض طلبات العميل</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="clint_id">
+      <property name="geometry">
+       <rect>
+        <x>410</x>
+        <y>480</y>
+        <width>151</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="placeholderText">
+       <string>رقم الزبون</string>
+      </property>
+     </widget>
+     <widget class="QTableWidget" name="tableWidget_2">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>10</y>
+        <width>631</width>
+        <height>421</height>
+       </rect>
+      </property>
+      <column>
+       <property name="text">
+        <string>رقم الطلب</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>رقم الزبون</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>اسم الزبون</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>رقم القماش</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>تاريخ الطلب</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>نوع الثوب</string>
+       </property>
+      </column>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_3">
+     <attribute name="title">
+      <string>التقارير </string>
+     </attribute>
+     <widget class="QPushButton" name="showmontbtn">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>470</y>
+        <width>141</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>عرض</string>
+      </property>
+     </widget>
+     <widget class="QTableWidget" name="tableWidget_3">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>731</width>
+        <height>421</height>
+       </rect>
+      </property>
+      <column>
+       <property name="text">
+        <string>رقم الطلب</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>رقم الزبون</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>اسم الزبون</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>رقم القماش</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>تاريخ الطلب</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>رقم المفصل</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>اسم المفصل</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>المدفوع</string>
+       </property>
+      </column>
+     </widget>
+     <widget class="QComboBox" name="month">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>470</y>
+        <width>221</width>
+        <height>22</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>550</x>
+        <y>470</y>
+        <width>81</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>اختر الشهر</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1076</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
